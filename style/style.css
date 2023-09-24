@@ -206,6 +206,16 @@ main {
     gap: 21px;
     align-items: center;
 }
+.footer {
+    background-color: #FF900E;
+    width: 80%;
+    
+    margin: 11px auto;
+}
+.footer p {
+    padding: 23px;
+    text-align: center;
+}
 
 
 
