@@ -5,6 +5,11 @@ font-family: 'Lato', sans-serif;
 font-family: 'open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgb(28, 27, 27);
+}
 .text-light-gray {
     color: #727272;
 }
@@ -27,11 +32,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.nav-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: rgb(28, 27, 27);
-}
+
 nav > ul {
     display: flex;
 }
@@ -96,6 +97,29 @@ main {
 .text-feature {
     color: #FF900E;
     font-weight: 700;
+}
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    border: 2px solid #ff900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;
+    
+}
+.facts-card-container .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+.facts-card-container .card-stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 
