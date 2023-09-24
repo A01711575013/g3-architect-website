@@ -146,11 +146,20 @@ main {
     border-radius: 8px;
     background: #FF900E;
     color: #fff;
-    width: 342px;
-    padding: 40px;
+    width: 242px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 53px;
+    left: -52px;
 }
 .ten-years-batch h2 {
     font-size: 3rem;
+    margin: 0;
+}
+.ten-years-batch p {
+    font-size: 1.5rem;
+    margin: 0;
 }
 
 /* facts style */
@@ -204,9 +213,19 @@ main {
     }
 
     nav,
+    .features,
     .facts-card-container,
     .sponsor-img-container {
         flex-direction: column;
+    }
+    .features img,
+    {
+        padding: 1px;
+        margin-left: 11px;
+    }
+    .ten-years-batch {
+        position: relative;
+        left: 4px;
     }
 
     .teams-container {
